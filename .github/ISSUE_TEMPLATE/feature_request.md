@@ -1,5 +1,5 @@
 ---
-name: Requiremetns Form
+name: Requirements Form
 about: Let's document our requirements!
 title: ''
 labels: ''
