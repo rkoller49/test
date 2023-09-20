@@ -153,15 +153,4 @@ body:
       render: shell
     validations:
       required: true
-      
-  - type: dropdown
-    id: Level
-    attributes:
-      label: What kind of level is this tip?
-      description: What level of developer do you tthink this tip is aimed at?
-      options:
-        - Beginner
-        - Intermediate
-        - Advanced
-    validations:
-      required: true
+
