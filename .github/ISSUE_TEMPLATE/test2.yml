@@ -5,7 +5,7 @@ labels: [Tip, enhancement]
 assignees:
   - mishmanners
 body:
-  - type: textarea
+- type: textarea
     id: conditions
     attributes:
       label: Major System Conditions
