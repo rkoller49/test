@@ -140,7 +140,7 @@ body:
     id: Acceptance
     attributes:
       label: System Acceptance Criteria
-      description: Specify the general system acceptance criteria specified and agreed upon by the project sponsor and key stakeholders that will be used to accept the final end product For example: · Successful High availability testing · Successful DR testing · Connectivity testing · Application health testing · Cost analysis inline with estimated costs
+      description: Specify the general system acceptance criteria specified and agreed upon by the project sponsor and key stakeholders that will be used to accept the final end product.
       render: shell
     validations:
       required: true 
