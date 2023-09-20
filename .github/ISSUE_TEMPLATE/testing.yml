@@ -19,7 +19,7 @@ body:
       required: true
 
   - type: textarea
-    id: info
+    id: capabilities
     attributes:
       label: Major System Capabilities
       description: Specify the major system capabilities in terms of availability, target deployment environment(s), device accessibility, and/or technical capability.
