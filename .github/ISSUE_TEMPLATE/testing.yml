@@ -45,6 +45,15 @@ body:
       render: shell
     validations:
       required: true
+
+  - type: textarea
+    id: Users
+    attributes:
+      label: System User Characteristics 
+      description: Identify each type of user of the system by function, location, and type of device. Specify the number of users in each group and the nature of their use of the system if applicable.
+      render: shell
+    validations:
+      required: true
       
   - type: dropdown
     id: Level
