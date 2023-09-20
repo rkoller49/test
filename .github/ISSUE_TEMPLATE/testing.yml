@@ -6,7 +6,7 @@ assignees:
   - rkoller49
 
 body:
-        
+- type: markdown        
   - type: textarea
     id: Name
     attributes:
