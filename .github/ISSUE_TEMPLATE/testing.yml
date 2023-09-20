@@ -21,8 +21,17 @@ body:
   - type: textarea
     id: info
     attributes:
-      label: More information
-      description: Add more information on the tip you would like to see.
+      label: Major System Capabilities
+      description: Specify the major system capabilities in terms of availability, target deployment environment(s), device accessibility, and/or technical capability.
+      render: shell
+    validations:
+      required: true
+
+  - type: textarea
+    id: info
+    attributes:
+      label: Major System Conditions
+      description: Specify major system assumptions and/or constraints (aka conditions). The conditions may limit the options available to the designer/developer.
       render: shell
     validations:
       required: true
@@ -39,17 +48,4 @@ body:
     validations:
       required: true
 
-  - type: checkboxes
-    id: location
-    attributes:
-      label: Where do you want this GitHub Tip?
-      description: Where would you like to see this GitHub Tip? You can select more than one.
-      options:
-        - label: Twitch
-          required: false
-        - label: DEV post
-          required: false
-        - label: YouTube video (longer)
-          required: false
-        - label: Twitter video (shorter)
-          required: false
+
