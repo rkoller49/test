@@ -54,6 +54,15 @@ body:
       render: shell
     validations:
       required: true
+
+  - type: textarea
+    id: Policy
+    attributes:
+      label: Policy Requirements 
+      description: Specify relevant applicable policies, and standards that will affect the operation and performance of the system, as well as any relevant external regulatory requirements, or constraints imposed by normal business practices.
+      render: shell
+    validations:
+      required: true
       
   - type: dropdown
     id: Level
