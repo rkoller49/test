@@ -74,7 +74,7 @@ body:
       required: true
 
   - type: textarea
-    id: Security requirements 
+    id: Security
     attributes:
       label: Security requirements for users of the systems
       description: Specify relevant applicable Security Requirements that will affect the operation and performance of the system, as well as any relevant external regulatory requirements, or constraints imposed by normal business practices. (enter N/A if nonapplicable)
@@ -83,7 +83,7 @@ body:
       required: true
 
   - type: textarea
-    id: Training requirements 
+    id: Training
     attributes:
       label: Specify Training requirements for the system
       description: Describe any formal or informal traning requirements needed to maintain and operate this System (enter N/A if nonapplicable)
@@ -92,7 +92,7 @@ body:
       required: true
 
   - type: textarea
-    id: Capacity requirements 
+    id: Capacity
     attributes:
       label: Initial Capacity Requirements
       description: Identify the highest and lowest estimated number of transactions, processing frequency, and expected usage (including any seasonal peaks) for capacity planning for storage and memory requirements for the application or project.
@@ -144,6 +144,15 @@ body:
       render: shell
     validations:
       required: true
+
+   - type: textarea
+    id: Acceptance
+    attributes:
+      label: System Acceptance Criteria
+      description: Specify the general system acceptance criteria specified and agreed upon by the project sponsor and key stakeholders that will be used to accept the final end product.
+      render: shell
+    validations:
+      required: true 
       
   - type: dropdown
     id: Level
