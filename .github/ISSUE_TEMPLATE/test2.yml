@@ -6,4 +6,146 @@ assignees:
   - mishmanners
 body:
 
+- type: textarea
+    id: Name
+    attributes:
+      label: System Name
+      description: What is the name of this System?
+      render: shell
+    validations:
+      required: true
 
+  - type: textarea
+    id: capabilities
+    attributes:
+      label: System Capabilities
+      description: Specify the major system capabilities in terms of availability, target deployment environment(s), device accessibility, and/or technical capability.
+      render: shell
+    validations:
+      required: true
+
+  - type: textarea
+    id: conditions
+    attributes:
+      label: Major System Conditions
+      description: Specify major system assumptions and/or constraints (aka conditions). The conditions may limit the options available to the designer/developer.
+      render: shell
+    validations:
+      required: true
+
+  - type: textarea
+    id: Interfaces
+    attributes:
+      label: System Interfaces
+      description: Describe the dependency and relationship requirements of the system to other enterprise/external systems. Include any interface to a future system or one under development. For clarity, a graphical representation of the interfaces should be used when appropriate by providing a link.
+      render: shell
+    validations:
+      required: true
+
+  - type: textarea
+    id: Users
+    attributes:
+      label: System User Characteristics 
+      description: Identify each type of user of the system by function, location, and type of device. Specify the number of users in each group and the nature of their use of the system if applicable.
+      render: shell
+    validations:
+      required: true
+
+  - type: textarea
+    id: Policy
+    attributes:
+      label: Policy Requirements 
+      description: Specify relevant applicable policies, and standards that will affect the operation and performance of the system, as well as any relevant external regulatory requirements, or constraints imposed by normal business practices. (enter N/A if nonapplicable)
+      render: shell
+    validations:
+      required: true
+
+  - type: textarea
+    id: Regulatory
+    attributes:
+      label: Regulatory Requirements
+      description: Specify relevant applicable regulations, and standards that will affect the operation and performance of the system, as well as any relevant external regulatory requirements, or constraints imposed by normal business practices. (enter N/A if nonapplicable)
+      render: shell
+    validations:
+      required: true
+
+  - type: textarea
+    id: Security
+    attributes:
+      label: Security requirements for users of the systems
+      description: Specify relevant applicable Security Requirements that will affect the operation and performance of the system, as well as any relevant external regulatory requirements, or constraints imposed by normal business practices. (enter N/A if nonapplicable)
+      render: shell
+    validations:
+      required: true
+
+  - type: textarea
+    id: Training
+    attributes:
+      label: Specify Training requirements for the system
+      description: Describe any formal or informal traning requirements needed to maintain and operate this System (enter N/A if nonapplicable)
+      render: shell
+    validations:
+      required: true
+
+  - type: textarea
+    id: Capacity
+    attributes:
+      label: Initial Capacity Requirements
+      description: Identify the highest and lowest estimated number of transactions, processing frequency, and expected usage (including any seasonal peaks) for capacity planning for storage and memory requirements for the application or project.
+      render: shell
+    validations:
+      required: true
+
+  - type: textarea
+    id: Architecture 
+    attributes:
+      label: Systems Architecture
+      description: Specify the cloud type (AWS, Azure, GCP), compute, network, managed databases, and any others cloud services required for the application or project.
+      render: shell
+    validations:
+      required: true
+
+  - type: textarea
+    id: Cloud 
+    attributes:
+      label: Cloud Requirements
+      description: Identify any specialized cloud requirements that must be purchased in support of the implementation of the application or project.
+      render: shell
+    validations:
+      required: true
+
+  - type: textarea
+    id: Software
+    attributes:
+      label: Software Requirements
+      description: Identify any specialized software requirements that must be purchased prior to development, or in support of the implementation, of the application or project.
+      render: shell
+    validations:
+      required: true
+
+  - type: textarea
+    id: Image
+    attributes:
+      label: Image Requirements
+      description: Identify any Wiley base images that will be used for the development of the application or project
+      render: shell
+    validations:
+      required: true
+
+  - type: textarea
+    id: Analysis
+    attributes:
+      label: Current System Analysis
+      description: If a current system exists, perform analysis on the system and describe how the current system is used by the business. Specify data storage requirements, relevant data flows, system interfaces to existing systems, reporting capability, etc
+      render: shell
+    validations:
+      required: true
+
+   - type: textarea
+    id: Acceptance
+    attributes:
+      label: System Acceptance Criteria
+      description: Specify the general system acceptance criteria specified and agreed upon by the project sponsor and key stakeholders that will be used to accept the final end product.
+      render: shell
+    validations:
+      required: true
