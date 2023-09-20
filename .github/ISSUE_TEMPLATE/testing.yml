@@ -5,11 +5,6 @@ labels: [Requirements]
 assignees:
   - rkoller49
 body:
-  
-  - type: markdown
-    attributes:
-      value: |
-        A clear and concise name describing the System to be built
         
   - type: textarea
     id: Name
