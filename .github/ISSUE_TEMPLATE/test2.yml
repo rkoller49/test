@@ -5,18 +5,6 @@ labels: [Tip, enhancement]
 assignees:
   - mishmanners
 body:
-
-
-
-  - type: textarea
-    id: capabilities
-    attributes:
-      label: System Capabilities
-      description: Specify the major system capabilities in terms of availability, target deployment environment(s), device accessibility, and/or technical capability.
-      render: shell
-    validations:
-      required: true
-
   - type: textarea
     id: conditions
     attributes:
