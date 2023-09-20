@@ -1,9 +1,10 @@
 name: Cloud Requirements
 description: Cloud Requirements form
-title: "Cloud Services Requirements "
+title: "Cloud Services Requirements"
 labels: [Requirements]
 assignees:
   - rkoller49
+
 body:
         
   - type: textarea
