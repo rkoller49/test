@@ -4,9 +4,7 @@ title: "Cloud Services Requirements"
 labels: [Requirements]
 assignees:
   - rkoller49
-body:
-
-        
+body:        
 - type: textarea
     id: Name
     attributes:
