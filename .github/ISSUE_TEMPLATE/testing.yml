@@ -6,10 +6,7 @@ assignees:
   - rkoller49
 
 body:
-- type: markdown        
-    attributes:
-      value: |
-        Thanks for taking the time to fill this form out completely.
+
         
 - type: textarea
     id: Name
