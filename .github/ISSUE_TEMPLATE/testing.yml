@@ -29,7 +29,7 @@ body:
       required: true
 
   - type: textarea
-    id: info
+    id: conditions
     attributes:
       label: Major System Conditions
       description: Specify major system assumptions and/or constraints (aka conditions). The conditions may limit the options available to the designer/developer.
@@ -37,6 +37,15 @@ body:
     validations:
       required: true
 
+        - type: textarea
+    id: Interfaces
+    attributes:
+      label: System Interfaces
+      description: Describe the dependency and relationship requirements of the system to other enterprise/external systems. Include any interface to a future system or one under development. For clarity, a graphical representation of the interfaces should be used when appropriate by providing a link.
+      render: shell
+    validations:
+      required: true
+      
   - type: dropdown
     id: Level
     attributes:
