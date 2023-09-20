@@ -10,6 +10,15 @@ assignees: ''
 **#1 System Name**
 A clear and concise name describing the System to be built
 
+- type: textarea
+    id: info
+    attributes:
+      label: System Name
+      description: A clear and concise name describing the System to be built
+      render: shell
+    validations:
+      required: true
+
 **#2 Major System Capabilities**
 Specify the major system capabilities in terms of availability, target deployment environment(s), device accessibility, and/or technical capability.
 
