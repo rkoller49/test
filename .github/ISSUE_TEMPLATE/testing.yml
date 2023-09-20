@@ -14,7 +14,7 @@ body:
     attributes:
       label: System Name
       description: What is the name of this System?
-       render: shell
+      render: shell
     validations:
       required: true
 
