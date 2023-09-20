@@ -144,6 +144,15 @@ body:
       render: shell
     validations:
       required: true
+
+  - type: textarea
+    id: Acceptance
+    attributes:
+      label: System Acceptance Criteria
+      description: Specify the general system acceptance criteria specified and agreed upon by the project sponsor and key stakeholders that will be used to accept the final end product
+      render: shell
+    validations:
+      required: true
       
   - type: dropdown
     id: Level
