@@ -7,14 +7,6 @@ assignees:
 body:
 
 
-- type: textarea
-    id: Name
-    attributes:
-      label: System Name
-      description: What is the name of this System?
-      render: shell
-    validations:
-      required: true
 
   - type: textarea
     id: capabilities
