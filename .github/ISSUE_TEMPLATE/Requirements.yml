@@ -2,7 +2,7 @@
 name: Requirements Form
 title: 'Requirements Form'
 labels: 'Reqs'
-assignees: 'Rick'
+
 
 body:
   - type: markdown
