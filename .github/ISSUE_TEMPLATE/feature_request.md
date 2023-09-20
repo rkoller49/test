@@ -6,7 +6,7 @@ labels: ''
 assignees: ''
 
 ---
-
+body:
 **#1 System Name**
 A clear and concise name describing the System to be built
 
