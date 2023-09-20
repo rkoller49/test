@@ -10,7 +10,7 @@ body:
       value: |
         A clear and concise name describing the System to be built
   - type: input
-    id: Name
+    id: SystemName
     attributes:
       label: Name of System
       description:  A clear and concise name describing the System to be built
