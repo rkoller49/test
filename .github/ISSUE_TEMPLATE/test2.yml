@@ -1,11 +1,34 @@
-name: Tip Request
-description: Request a GitHub Tip from MishManners
-title: "[Tip]: I want "
-labels: [Tip, enhancement]
+name: Cloud Requirements
+description: Cloud Requirements form
+title: "Cloud Services Requirements "
+labels: [Requirements]
 assignees:
-  - mishmanners
+  - rkoller49
 body:
-- type: textarea
+  - type: markdown
+    attributes:
+      value: |
+        A clear and concise name describing the System to be built
+        
+  - type: textarea
+    id: Name
+    attributes:
+      label: System Name
+      description: What is the name of this System?
+      render: shell
+    validations:
+      required: true
+
+  - type: textarea
+    id: capabilities
+    attributes:
+      label: System Capabilities
+      description: Specify the major system capabilities in terms of availability, target deployment environment(s), device accessibility, and/or technical capability.
+      render: shell
+    validations:
+      required: true
+
+  - type: textarea
     id: conditions
     attributes:
       label: Major System Conditions
@@ -60,7 +83,7 @@ body:
       required: true
 
   - type: textarea
-    id: Training
+    id: Training 
     attributes:
       label: Specify Training requirements for the system
       description: Describe any formal or informal traning requirements needed to maintain and operate this System (enter N/A if nonapplicable)
@@ -114,6 +137,15 @@ body:
       required: true
 
   - type: textarea
+    id: Acceptance
+    attributes:
+      label: System Acceptance Criteria
+      description: Specify the general system acceptance criteria specified and agreed upon by the project sponsor and key stakeholders that will be used to accept the final end product For example: · Successful High availability testing · Successful DR testing · Connectivity testing · Application health testing · Cost analysis inline with estimated costs
+      render: shell
+    validations:
+      required: true 
+
+  - type: textarea
     id: Analysis
     attributes:
       label: Current System Analysis
@@ -121,12 +153,15 @@ body:
       render: shell
     validations:
       required: true
-
-   - type: textarea
-    id: Acceptance
+      
+  - type: dropdown
+    id: Level
     attributes:
-      label: System Acceptance Criteria
-      description: Specify the general system acceptance criteria specified and agreed upon by the project sponsor and key stakeholders that will be used to accept the final end product.
-      render: shell
+      label: What kind of level is this tip?
+      description: What level of developer do you tthink this tip is aimed at?
+      options:
+        - Beginner
+        - Intermediate
+        - Advanced
     validations:
       required: true
